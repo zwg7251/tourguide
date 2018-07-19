@@ -1,3 +1,6 @@
+.place_info{
+  font-size:small;
+}
 
 .map_container{ 
     height: 1000rpx; 
@@ -6,7 +9,7 @@
 } 
 
 .map { 
-    height: 100%; 
+    height: 95%; 
     width: 100%; 
 }
 
