@@ -1,0 +1,26 @@
+
+
+<view style='text-align:center;margin-top:200rpx;'>
+  <view style='margin-bottom:50rpx;font-weight:bold; font-size:35rpx'>请输入安全确认密码</view>
+
+  <sixpass
+  bindsendRiskmsg="sendRiskmsg" 
+  bindsendSecmsg="sendSecmsg"
+  bindcodeError="codeError"
+  input_value="{{inputData.input_value}}" 
+  value_length="{{inputData.value_length}}" 
+  isNext="{{inputData.isNext}}" 
+  get_focus="{{inputData.get_focus}}" 
+  focus_class="{{inputData.focus_class}}" 
+  value_num="{{inputData.value_num}}"
+  height="{{inputData.height}}" 
+  width="{{inputData.width}}" 
+  see="{{inputData.see}}" 
+  interval="{{inputData.interval}}">
+  </sixpass>
+  
+</view>
+
+
+
+

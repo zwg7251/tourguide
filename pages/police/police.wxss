@@ -1,0 +1,38 @@
+
+.map_container{ 
+    height: 1000rpx; 
+    width: 100%; 
+    justify-content: space-around;
+} 
+
+.map { 
+    height: 100%; 
+    width: 100%; 
+}
+
+.container{
+ display:flex;
+ flex-direction: column;
+ justify-content: space-around;
+}
+
+.buttonMode{
+width: 120rpx;
+  height: 120rpx;
+  border-radius: 70%;
+}
+.position1{
+  position: absolute;
+  bottom: 20rpx;
+  left:150rpx;
+}
+.position2{
+  position: absolute;
+  bottom: 20rpx;
+  left:300rpx;
+}
+.position3{
+  position: absolute;
+  bottom: 20rpx;
+  left:450rpx;
+}

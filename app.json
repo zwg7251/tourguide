@@ -1,0 +1,19 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/locate/locate",
+    "pages/police/police",
+    "pages/hospital/hospital",
+    "pages/info/info",
+    "pages/inputMM/inputMM",
+    "pages/clock/clock",
+    "pages/book/book"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle":"black"
+  }
+}

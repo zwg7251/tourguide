@@ -1,0 +1,13 @@
+<view class="container">
+
+<text style="font-weight:bold; font-size:50rpx;margin-bottom:140rpx" class="position1">安全模式运行中</text>
+<text style="display: block;text-align: center;font-size: 30px;color: #f60;" class="position2">
+    {{clock}}
+</text>
+
+<image src="/images/shouwei.png" class="about-banner"></image>
+
+<button style="width:150rpx" disabled="{{disabled}}" bindtap="onSubmit" class="position3">确定</button>
+<button style="width:150rpx" bindtap="onClose" class="position4">关闭</button>
+
+</view>

@@ -1,0 +1,12 @@
+
+<view class="map_container"> 
+
+   <map class="map" id="map" longitude="{{longitude}}" latitude="{{latitude}}" scale="14" show-location="true" markers="{{markers}}" bindmarkertap="makertap"></map> 
+
+
+   <image src="/images/mylocate.jpg" bindtap="changetolocate" class="buttonMode,position1"></image>
+   <image src="/images/hosptial.jpg" bindtap="changetohospital" class="buttonMode,position2"></image>
+   <image src="/images/firstpage.jpg" bindtap="changetoFP" class="buttonMode,position3"></image>
+  
+
+</view>

@@ -1,0 +1,29 @@
+
+<view class="map_container"> 
+
+   <map class="map" id="map" longitude="{{longitude}}" latitude="{{latitude}}" scale="14" show-location="true" markers="{{markers}}" bindmarkertap="makertap"></map> 
+
+
+   <image src="/images/police.png" bindtap="changetopolice" class="buttonMode,position1"></image>
+   <image src="/images/hosptial.jpg" bindtap="changetohospital" class="buttonMode,position2"></image>
+   <image src="/images/firstpage.jpg" bindtap="changetoFP" class="buttonMode,position3"></image>
+  
+
+<button class="share" bindtap='sumbit' id="shareBtn" open-type="share"
+      size="mini"hover-class="other-button-hover">
+        <image class="img" src="/images/share.jpg" mode="widthFix">分享</image>
+        
+</button>
+
+</view>
+
+
+
+
+
+
+
+
+
+
+

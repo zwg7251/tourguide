@@ -1,0 +1,37 @@
+
+<view class="container">
+<image src="/images/locate.jpg" class="about-banner,position1" bindtap="changetoMap" ></image>
+<text style="font-weight:bold; font-size:35rpx" class="margin">我的位置</text>
+
+    <dialog id='dialog' 
+
+      title='' 
+
+      content='请先进行设置' 
+
+      cancelText='好的' 
+
+      confirm=''
+
+      bind:cancelEvent="_cancelEvent"  
+
+      bind:confirmEvent="_confirmEvent">
+
+    </dialog>
+
+    <image src="/images/start.jpg" bindtap="changetostart" class="about-banner"></image>
+    <text style="font-weight:bold; font-size:35rpx" class="margin1">开启安全模式</text>
+
+
+<image src="/images/setting.png" class="about-banner1,position2" bindtap="changetoset"></image>
+<text style="font-weight:bold; font-size:35rpx" class="position4">设置</text>
+
+
+<image src="/images/book.png" class="about-banner1,position3" bindtap="changetobook"></image>
+<text style="font-weight:bold; font-size:35rpx" class="position5">使用指南</text>
+</view>
+
+
+
+
+
